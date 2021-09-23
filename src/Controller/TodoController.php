@@ -11,6 +11,11 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 use App\Repository\TodoRepository;
 
+/**
+ * Class TodoController
+ * @package App\Controller
+ * @Route("/api", name="todo_api")
+ */
 class TodoController extends AbstractController
 {
     /**
