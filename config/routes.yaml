@@ -1,3 +1,36 @@
 index:
     path: /
     controller: App\Controller\HomeController::index
+
+register:
+    path: /register
+    controller: App\Controller\AuthController::register
+    methods: POST
+
+api:
+    path: /api
+    controller: App\Controller\AuthController::api
+
+login_check:
+    path: /login_check
+    methods: [POST]
+
+get_todos:
+    path: /api/todo
+    controller: App\Controller\TodoController::getTodos
+    methods: GET
+
+add_todo:
+    path: /api/todo
+    controller: App\Controller\TodoController::addTodo
+    methods: POST
+
+delete_todo:
+    path: /api/todo/{id}
+    controller: App\Controller\TodoController::deleteTodo
+    methods: DELETE
+
+put_todo:
+    path: /api/todo/{id}
+    controller: App\Controller\TodoController::updateTodo
+    methods: PUT

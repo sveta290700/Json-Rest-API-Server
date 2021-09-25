@@ -6,6 +6,7 @@ use App\Repository\TodoRepository;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
+ * @ORM\Table(name="todos")
  * @ORM\Entity(repositoryClass=TodoRepository::class)
  */
 class Todo
@@ -20,7 +21,7 @@ class Todo
     /**
      * @ORM\Column(type="string", length=255)
      */
-    private $Name;
+    private $name;
 
     public function getId(): ?int
     {
@@ -29,13 +30,12 @@ class Todo
 
     public function getName(): ?string
     {
-        return $this->Name;
+        return $this->name;
     }
 
-    public function setName(string $Name): self
+    public function setName(string $name): self
     {
-        $this->Name = $Name;
-
+        $this->name = $name;
         return $this;
     }
 }
