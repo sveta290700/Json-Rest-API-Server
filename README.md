@@ -17,15 +17,18 @@ GET 178.62.205.95/api/todo
 ##### 6) Добавить задачу:
 POST 178.62.205.95/api/todo
 <a href="https://ibb.co/MSvpv7z"><img src="https://i.ibb.co/pw7Z7dH/6.png" alt="6" border="0"></a>
+
 Добавим ещё одну задачу и проверим результат (по пункту 5):
 <a href="https://ibb.co/x2Ww35V"><img src="https://i.ibb.co/Cwg4W0x/62.png" alt="62" border="0"></a>
 ##### 7) Обновить задачу:
 PUT 178.62.205.95/api/todo/{id}
 <a href="https://ibb.co/v1G0HMV"><img src="https://i.ibb.co/dBq8rHj/7.png" alt="7" border="0"></a>
+
 Проверим результат (по пункту 5):
 <a href="https://ibb.co/jM8wBq7"><img src="https://i.ibb.co/T8w0pJz/72.png" alt="72" border="0"></a>
 ##### 8) Удалить задачу:
 DELETE 178.62.205.95/api/todo/{id}
 <a href="https://ibb.co/mbjKb3r"><img src="https://i.ibb.co/HBSyBjL/8.png" alt="8" border="0"></a>
+
 Проверим результат (по пункту 5):
 <a href="https://ibb.co/7kKdrDS"><img src="https://i.ibb.co/9ZWky0p/82.png" alt="82" border="0"></a>
